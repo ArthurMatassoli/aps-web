@@ -1,0 +1,321 @@
+@font-face {
+  font-family: 'PleaseWriteMeaSong';
+  src: url(../font/PleaseWriteMeaSong.ttf);
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #EEEEEE;
+}
+
+p {
+  color: #888888;
+}
+
+img {
+  max-width: 100%;
+}
+
+#final1 {
+  float: center; 
+  border:1px rgb(129, 2, 2) solid; 
+  background-color:#9a382d; 
+  color:white; 
+  font-size: 20px; 
+  font-family:PleaseWriteMeaSong;
+  text-decoration:none;
+  padding: 7px 16px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px black;
+  cursor: pointer;
+  
+}
+
+#final1:hover  {
+  background-color: #bc6b5d;
+}
+
+#email {
+  color: #9a382d; 
+  font-size: 25px;
+  font-family: PleaseWriteMeaSong; 
+  text-decoration: none;
+}
+
+#senha {
+  color: #9a382d; 
+  font-size: 25px;
+  font-family: PleaseWriteMeaSong; 
+  text-decoration: none;
+}
+
+#entrar {
+  float: right; 
+  border:1px rgb(129, 2, 2) solid; 
+  padding: 11px 44px; 
+  vertical-align: middle; 
+  background: #9a382d; 
+  color: white;
+  border-radius: 6px; 
+  font-size: 20px; 
+  font-family: PleaseWriteMeaSong;
+  text-decoration: none;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px black;
+  cursor: pointer;
+}
+
+#entrar:hover {
+  background-color: #bc6b5d;
+}
+
+#cad {
+  float: center; 
+  border:1px rgb(129, 2, 2) solid;  
+  padding: 12px 21px; 
+  vertical-align: middle; 
+  background: #9a382d; 
+  color: white;
+  border-radius: 6px; 
+  font-size: 20px; 
+  font-family: PleaseWriteMeaSong;
+  text-decoration: none;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px black;
+  cursor: pointer;
+}
+#cad:hover {
+  background-color: #bc6b5d;
+}
+
+.map {
+  border: solid 5px #9a382d;
+  margin-top: 50px;
+
+}
+
+.divisor {
+  text-align: center;
+  margin-bottom: 45px;
+}
+
+.header {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#9a382d), to(#9a382d));
+  background-image: linear-gradient(#9a382d, #9a382d);
+  padding: 10px 0;
+  text-align: center;
+}
+
+.header .menu {
+  text-size-adjust: 20px;
+  margin-top: 0px;
+}
+
+.header .menu a {
+  color: #EEEEEE;
+  margin: 0 30px;
+  font-size: 25px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'PleaseWriteMeaSong';
+}
+
+.header .menu a:hover {
+  text-decoration: underline;
+}
+
+
+.banner {
+  position: relative;
+}
+
+.banner video {
+  width: 100%;
+  display: block;
+}
+
+.banner .content-banner {
+  background-color: rgba(0, 0, 0, 0.466);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  color: white;
+}
+
+.banner .content-banner h1 {
+  font-size: 50px;
+}
+
+.presentation {
+  padding: 50px 0;
+}
+
+.presentation p {
+  font-size: 16px;
+  text-align: center;
+  
+}
+
+.presentation .col-presentation {
+  text-align: center;
+}
+
+.presentation .col-presentation h2 {
+  color: #9a382d;
+  margin: 0 0 10px 0;
+  font-family: 'PleaseWriteMeaSong';
+  font-weight: 400;
+  font-size: 40px;
+}
+
+.gallery p{
+  font-size: 16px;
+}
+
+.gallery h3 {
+  color: #9a382d;
+  margin: 0 0 10px 0;
+  font-family: 'PleaseWriteMeaSong';
+  font-weight: 400;
+  font-size: 40px;
+}
+
+.gallery img {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+}
+
+.gallery img:hover {
+  -webkit-filter: grayscale(0) drop-shadow(3px 3px 10px #222222);
+          filter: grayscale(0) drop-shadow(3px 3px 10px #222222);
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.comment {
+  background-color: #9a382d;
+  padding: 10px 0;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.comment p {
+  font-size: 18px;
+  color: white;
+}
+
+.footer {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#9a382d), to(#9a382d));
+  background-image: linear-gradient(#9a382d, #9a382d);
+  text-align: center;
+  padding: 15px 0;
+}
+
+.footer p {
+  color: white;
+  font-size: 14px;
+  margin: 0;
+}
+.form {
+  padding: 0 20%;
+}
+.form p {
+  color: #888888;
+  text-align: justify;
+  font-size: 20px;
+  margin-left: 70px;
+  margin-right: auto;
+  
+
+}
+.form h2 {
+  color: #9a382d;
+  font-family: 'PleaseWriteMeaSong';
+  font-weight: 400;
+  font-size: 30px;
+  text-align: justify;
+  margin-left: 70px;
+  margin-right: auto;
+}
+
+.login {
+  max-width: 100%;
+}
+
+.login table {
+  padding-top: 50px;
+}
+
+.login h3 {
+  margin-left: 190px;
+}
+
+.login input {
+  margin-left: 190px;
+}
+
+.pedido h2 {
+  color: #9a382d;
+  font-family: 'PleaseWriteMeaSong';
+  font-size: 50px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 0px;
+  font-weight: bold;
+
+}
+
+.final a {
+  font-size: 20px;
+  text-align: center;
+}
+
+.final .bot {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 300px;
+}
+
+.center-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input {
+  border: 1px solid;
+  float: center;
+  padding-top: 0px;
+}
+
+.login h3 {
+  margin-left: 500px;
+}
+
+.login input {
+  margin-left: 500px;
+  height: 35px; 
+  border: 2px solid #9a382d; 
+}

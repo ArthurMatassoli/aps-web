@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizzarte</title>
+
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="css/style.css">    
+    
+    <link rel="shortcut icon" type="imagex/png" href="./img/icon.ico">
+</head>
+<body>
+    <header class="header">
+
+        <div class="container">
+
+            <nav class="menu">
+                <a href="index.html" targe="_self">Início</a>
+                <a href="form.html" target="_self">Peça Aqui</a>
+                <a href="#">Cardápio</a>
+                <a href="#">O Espaço</a>
+                <a href="local.html" target="_self">Localização</a>
+                <a href="login.html" target="_self">Login</a>
+            </nav>
+
+        </div>
+
+    </header>
+    <div class="banner">
+        <div class="content-banner">
+            <div>
+                <h1>PizzArte</h1>
+            </div>
+        </div>
+
+        <video src="video/pizzaria.mp4" autoplay muted loop></video>
+    </div>
+    
+    <div class="container">
+
+        <div class="row form">
+
+            <div class="pedido">
+                <h2>Faça seu pedido</h2>
+            </div>
+
+            <section class="col-md-6 col-form">
+                <h2>Sabores de Pizza Salgada</h2>
+                <p>
+                    <input type="radio" id="calabresa" name="sabores" value="calabresa">
+                    <label for="calabresa">Calabresa</label><br>
+                    <input type="radio" id="queijo" name="sabores" value="queijo">
+                    <label for="queijo">Quatro Queijos</label><br>
+                    <input type="radio" id="frango" name="sabores" value="frango">
+                    <label for="frango">Frango com Catupiry</label><br>
+                </p>
+            </section>
+
+            <section class="col-md-6 col-form">
+                <h2>Tamanho de Pizza</h2>
+                <p>
+                    <input type="radio" id="30" name="tamanhos" value="30">
+                    <label for="30">Pizza Média - 30cm</label><br>
+                    <input type="radio" id="35" name="tamanhos" value="35">
+                    <label for="35">Pizza Grande - 35cm</label><br>
+                    <input type="radio" id="42" name="tamanhos" value="42">
+                    <label for="42">Pizza Família - 42cm</label><br>
+                </p>
+            </section>
+
+            <section class="col-md-6 col-form">
+                <br><h2>Sabores de Pizza doce</h2>
+                <p>
+                    <input type="radio" id="Prestígio" name="doce" value="Prestígio">
+                    <label for="Prestígio">Prestígio</label><br>
+                    <input type="radio" id="Chocolate" name="doce" value="Chocolate">
+                    <label for="Chocolate">Chocolate</label><br>
+                    <input type="radio" id="Chocolate com Banana" name="doce" value="Chocolate com Banana">
+                    <label for="Chocolate com Banana">Chocolate com Banana</label><br>
+                </p>
+            </section>
+
+            <section class="col-md-6 col-form">
+                <br><h2>Bebidas</h2>
+                <p>
+                    <input type="radio" id="Guaraná Antártica" name="bebidas" value="Guaraná Antártica">
+                    <label for="Guaraná Antártica">Guaraná Antártica</label><br>
+                    <input type="radio" id="Coca-Cola" name="bebidas" value="Coca-Cola">
+                    <label for="Coca-Cola">Coca-Cola</label><br>
+                    <input type="radio" id="Suco de Laranja" name="bebidas" value="Suco de Laranja">
+                    <label for="Suco de Laranja">Suco de Laranja</label><br>
+                </p>
+            </section> 
+        </div>
+        <div class="final">
+            <a class="bot" id="final1" href="#">Finalizar Pedido</a>
+        </div> 
+
+    </div>
+
+
+    <div class="comment">
+
+        <div class="container">
+            <img src="img/perfil.png" alt="">
+            <p><em>Trabalho feito por um grupo da turma 966 de Desenvolvimento de Aplicações Web, com o Professor Marcelo Perantoni!</em></p>
+            <p>👍 Um salve para quem leu! 👍 </p>
+        </div>
+
+    </div>
+
+    <footer class="footer">
+        <p>
+            PIZZARTE TODOS OS DIREITOS RESERVADOS <br> 
+            Rua Venceslau 192 - Méier, Rio de Janeiro - RJ, 20735-160
+        </p>
+    </footer>
+
+
+    <script src="lightbox/js/lightbox-plus-jquery.min.js"></script>
+
+    <script>
+        lightbox.option({
+          'resizeDuration': 500,
+          'wrapAround': true,
+          'albumLabel': "Imagem %1 de %2"
+        })
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizzarte</title>
+
+    <link rel="stylesheet" href="lightbox/css/lightbox.min.css">
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="css/style.css">    
+    
+    <link rel="shortcut icon" type="imagex/png" href="./img/icon.ico">
+</head>
+<body>
+    <header class="header">
+
+        <div class="container">
+
+            <nav class="menu">
+                <a href="index.html" targe="_self">Início</a>
+                <a href="form.html" target="_self">Peça Aqui</a>
+                <a href="#">Cardápio</a>
+                <a href="#">O Espaço</a>
+                <a href="local.html" target="_self">Localização</a>
+                <a href="login.html" target="_self">Login</a>
+            </nav>
+
+        </div>
+
+    </header>
+    <div class="banner">
+        <div class="content-banner">
+            <div>
+                <h1>PizzArte</h1>
+            </div>
+        </div>
+
+        <video src="video/pizzaria.mp4" autoplay muted loop></video>
+    </div>
+    
+    <div class="container">
+
+        <div class="row login">
+
+            <div class="pedido">
+                <h2>Fazer Login</h2>
+            </div>
+            <div id="email">
+                <h3>Email</h3>
+                <input type="email" name="senha" size="40">
+            </div>
+            <div id="senha">
+                <h3>Senha</h3>
+                <input type="password" name="senha" size="40">
+            </div>
+            <table>
+                <tr>
+                    <td>
+                        <div>
+                            <a class="button" id="entrar" href="login.html">Entrar</a>
+                        </div>
+                    </td>
+                    <td>
+                        <div>
+                            <a class="button" id="cad" href="login.html">Cadastrar-se</a>
+                        </div>
+                    </td>       
+                </tr>
+            </table>
+        </div>
+
+    </div>
+
+
+    <div class="comment">
+
+        <div class="container">
+            <img src="img/perfil.png" alt="">
+            <p><em>Trabalho feito por um grupo da turma 966 de Desenvolvimento de Aplicações Web, com o Professor Marcelo Perantoni!</em></p>
+            <p>👍 Um salve para quem leu! 👍 </p>
+        </div>
+
+    </div>
+
+    <footer class="footer">
+        <p>
+            PIZZARTE TODOS OS DIREITOS RESERVADOS <br> 
+            Rua Venceslau 192 - Méier, Rio de Janeiro - RJ, 20735-160
+        </p>
+    </footer>
+
+
+    <script src="lightbox/js/lightbox-plus-jquery.min.js"></script>
+
+    <script>
+        lightbox.option({
+          'resizeDuration': 500,
+          'wrapAround': true,
+          'albumLabel': "Imagem %1 de %2"
+        })
+    </script>
+
+</body>
+</html>
